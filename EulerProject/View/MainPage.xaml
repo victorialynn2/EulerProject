@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="EulerProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EulerProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <Button Content="Find Sum of Multiples" HorizontalAlignment="Right" Height="48" Margin="0,172,320,0" VerticalAlignment="Top" Width="197" Click="Button_Click"/>
+        <TextBox x:Name="txtBoxMultipleNumber" HorizontalAlignment="Left" Text="" VerticalAlignment="Bottom" RenderTransformOrigin="10.125,7.318" Width="145" Margin="416,0,0,780" Height="48" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Text="Enter a number to find the sum of its multiples:" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="100,0,0,786" Height="34"/>
+        <TextBlock x:Name="threeAndFiveTextBlock" HorizontalAlignment="Right" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,290,1152,0"/>
+        <TextBox x:Name="boundaryTxtBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Margin="750,172,0,0" Height="48" Width="138" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Text="Up to:" TextWrapping="Wrap" VerticalAlignment="Top" Margin="665,180,0,0"/>
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,12 @@
+﻿The following project is the solution of the problem detailed at https://projecteuler.net/problem=1
+Euler Project 1: Multiples of 3 & 5
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+To find the sum of all numbers from 1 to n we use the formula n(n+1)/2. To find the sum of all 
+multiples from k*1 to k*n we can modify that formula to kn(n+1)/2 where n is the difference between
+the number you want to count up to and the numbers whose multiples you are summing. This will find the sum of the 
+multiples of 5 and 3 however they have a common multiples between them. These common multiples are all multiples of 
+their least common multiple 15. Therefore to find the sum of all the unique multiples of 3 and 5 we will first find
+the sum of the multiples of 3 and 5 and then subtract the common multiples between the two once. 
+

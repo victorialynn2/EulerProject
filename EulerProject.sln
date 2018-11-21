@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerProject", "EulerProject\EulerProject.csproj", "{6F063493-D539-4FAD-8323-CB16D996FC4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerProject1", "EulerProject\EulerProject1.csproj", "{6F063493-D539-4FAD-8323-CB16D996FC4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerProject2", "EulerProject2\EulerProject2.csproj", "{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,24 @@ Global
 		{6F063493-D539-4FAD-8323-CB16D996FC4D}.Release|x86.ActiveCfg = Release|x86
 		{6F063493-D539-4FAD-8323-CB16D996FC4D}.Release|x86.Build.0 = Release|x86
 		{6F063493-D539-4FAD-8323-CB16D996FC4D}.Release|x86.Deploy.0 = Release|x86
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|ARM.Build.0 = Debug|ARM
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|ARM.Deploy.0 = Debug|ARM
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|x64.ActiveCfg = Debug|x64
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|x64.Build.0 = Debug|x64
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|x64.Deploy.0 = Debug|x64
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|x86.ActiveCfg = Debug|x86
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|x86.Build.0 = Debug|x86
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Debug|x86.Deploy.0 = Debug|x86
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|ARM.ActiveCfg = Release|ARM
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|ARM.Build.0 = Release|ARM
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|ARM.Deploy.0 = Release|ARM
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|x64.ActiveCfg = Release|x64
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|x64.Build.0 = Release|x64
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|x64.Deploy.0 = Release|x64
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|x86.ActiveCfg = Release|x86
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|x86.Build.0 = Release|x86
+		{D91E6048-E0BC-4D2A-9370-3F3B196C58CB}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
